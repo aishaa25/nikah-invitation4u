@@ -75,8 +75,27 @@
   font-family: 'Great Vibes', cursive;
 }
 
+.font-allura {
+  font-family: 'Allura', cursive;
+}
+
+.font-italianno {
+  font-family: 'Italianno', cursive;
+}
+
 .font-pinyon {
   font-family: 'Pinyon Script', cursive;
+}
+
+/* Force light theme colors even if device is on dark mode */
+@media (prefers-color-scheme: dark) {
+  :root, html, body, #root {
+    color-scheme: light only !important;
+    forced-color-adjust: none !important;
+    -webkit-forced-color-adjust: none !important;
+    background-color: #FAF4EB !important;
+    color: #382E2B !important;
+  }
 }
 
 .font-cinzel {

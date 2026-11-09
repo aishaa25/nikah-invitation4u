@@ -57,17 +57,17 @@ export const EnvelopeSlide: React.FC<EnvelopeSlideProps> = ({ onOpen, isOpen }) 
           isOpening ? 'scale-105 opacity-90 -translate-y-4 shadow-[0_35px_70px_rgba(90,67,45,0.4)]' : 'scale-100 opacity-100 hover:scale-[1.01]'
         }`}
       >
-        {/* The Envelope Visual: Cropped generously to completely eliminate ANY trace of the blue Chrome browser bar */}
+        {/* The Envelope Visual: Clean cropped image with ZERO blue artifacts or status bars */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <img
-            src="/assets/aistudio/Screen_Recording_20261106_230215_Chrome_fb171bd0.jpg"
+            src="/assets/aistudio/envelope_clean.jpg"
             alt="Lace wedding envelope with gold Bismillah wax seal"
-            className="w-full h-[126%] -mt-[21%] object-cover object-bottom scale-[1.03]"
+            className="w-full h-full object-cover object-center"
           />
         </div>
 
-        {/* Top Decorative Cap: Soft warm butter-creme fade with lace arch border that masks the upper edge seamlessly */}
-        <div className="absolute top-0 left-0 right-0 h-16 bg-gradient-to-b from-[#F9F4EC] via-[#F9F4EC]/60 to-transparent pointer-events-none" />
+        {/* Top Delicate Vignette Cap */}
+        <div className="absolute top-0 left-0 right-0 h-12 bg-gradient-to-b from-[#F9F4EC]/80 via-[#F9F4EC]/30 to-transparent pointer-events-none" />
 
         {/* Soft Vignette and Delicate Luster Overlays */}
         <div className="absolute inset-0 bg-gradient-to-t from-[#46352B]/15 via-transparent to-transparent pointer-events-none" />

@@ -37,23 +37,20 @@ export const NamesSection: React.FC = () => {
         </p>
 
         {/* Bride Name Section */}
-        <div className="space-y-1">
-          <div className="font-arabic text-2xl sm:text-3xl text-[#FFF7EE] leading-tight font-medium">
+        <div className="space-y-1.5 py-1">
+          <div className="font-arabic text-2xl sm:text-3xl text-[#FFF7EE]/95 leading-tight font-medium drop-shadow-sm">
             عَائِشَة
           </div>
 
-          {/* Ayesha: Explicit, Grand Royal Capital 'A' in the EXACT SAME COLOR as the rest of the name */}
-          <h2 className="leading-tight drop-shadow-md py-1 flex items-baseline justify-center tracking-wide text-[#E5BDA7]">
-            <span className="font-pinyon text-6xl sm:text-7xl font-semibold inline-block -mr-1 text-[#E5BDA7]">
-              A
-            </span>
-            <span className="font-calligraphy text-5xl sm:text-6xl text-[#E5BDA7]">
-              yesha
+          {/* Ayesha: Flowing Royal Luxury Calligraphy */}
+          <h2 className="py-1 tracking-wide">
+            <span className="font-pinyon text-6xl sm:text-7xl md:text-8xl text-[#E5BDA7] font-normal inline-block drop-shadow-[0_3px_12px_rgba(229,189,167,0.35)] hover:scale-105 transition-transform duration-300">
+              Ayesha
             </span>
           </h2>
 
           {/* Title Case: Daughter of Mr. & Mrs. Aijaz Daroge - BOLD & CLEAR */}
-          <p className="font-sans-clean text-xs sm:text-sm tracking-[0.2em] uppercase text-[#E5BDA7] font-semibold pt-1">
+          <p className="font-sans-clean text-xs sm:text-sm tracking-[0.22em] uppercase text-[#E5BDA7] font-semibold pt-1">
             Daughter of
           </p>
           <p className="font-serif-lux text-base sm:text-lg tracking-wider text-[#FFF7EE] font-bold drop-shadow-sm">
@@ -61,29 +58,30 @@ export const NamesSection: React.FC = () => {
           </p>
         </div>
 
-        {/* Golden Calligraphy Ampersand */}
-        <div className="my-2.5 font-calligraphy text-3xl sm:text-4xl text-[#E5BDA7] leading-none drop-shadow-sm">
-          &amp;
+        {/* Ornate Calligraphy Ampersand with Golden Hairlines */}
+        <div className="my-2 flex items-center justify-center gap-3 w-44">
+          <span className="flex-1 h-[1px] bg-gradient-to-r from-transparent to-[#E5BDA7]/80" />
+          <span className="font-pinyon text-4xl sm:text-5xl text-[#E5BDA7] italic drop-shadow-sm leading-none px-1">
+            &amp;
+          </span>
+          <span className="flex-1 h-[1px] bg-gradient-to-l from-transparent to-[#E5BDA7]/80" />
         </div>
 
         {/* Groom Name Section */}
-        <div className="space-y-1">
-          <div className="font-arabic text-2xl sm:text-3xl text-[#FFF7EE] leading-tight font-medium">
+        <div className="space-y-1.5 py-1">
+          <div className="font-arabic text-2xl sm:text-3xl text-[#FFF7EE]/95 leading-tight font-medium drop-shadow-sm">
             صَيْف الدِّين
           </div>
 
-          {/* Saifuddin: Grand Royal Capital 'S' in the EXACT SAME COLOR as the rest of the name */}
-          <h2 className="leading-tight drop-shadow-md py-1 flex items-baseline justify-center tracking-wide text-[#E5BDA7]">
-            <span className="font-pinyon text-6xl sm:text-7xl font-semibold inline-block -mr-0.5 text-[#E5BDA7]">
-              S
-            </span>
-            <span className="font-calligraphy text-5xl sm:text-6xl text-[#E5BDA7]">
-              aifuddin
+          {/* Saifuddin: Flowing Royal Luxury Calligraphy */}
+          <h2 className="py-1 tracking-wide">
+            <span className="font-pinyon text-6xl sm:text-7xl md:text-8xl text-[#E5BDA7] font-normal inline-block drop-shadow-[0_3px_12px_rgba(229,189,167,0.35)] hover:scale-105 transition-transform duration-300">
+              Saifuddin
             </span>
           </h2>
 
           {/* Title Case: Son of Mr. & Mrs. Rizwan Kadri - BOLD & CLEAR */}
-          <p className="font-sans-clean text-xs sm:text-sm tracking-[0.2em] uppercase text-[#E5BDA7] font-semibold pt-1">
+          <p className="font-sans-clean text-xs sm:text-sm tracking-[0.22em] uppercase text-[#E5BDA7] font-semibold pt-1">
             Son of
           </p>
           <p className="font-serif-lux text-base sm:text-lg tracking-wider text-[#FFF7EE] font-bold drop-shadow-sm">
