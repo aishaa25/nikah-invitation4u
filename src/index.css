@@ -2,18 +2,18 @@
 
 @layer base {
   :root {
-    /* Refined Luxury Wedding Palette inspired by Canva Butter Creme & Ink Gild */
+    /* Exact Luxury Wedding Palette from Canva Reference */
     --butter-creme: #FFF7EE;
     --parchment-warm: #FAF4EB;
-    --ivory-pure: #FCF9F5;
     --rustic-warm: #E5BDA7;
-    --champagne-gold: #C5A059;
     --ink-gild: #74583E;
+    --fleet-grey: #5E6572;
+    --fleet-grey-dark: #434B58;
+    --fleet-grey-deep: #303742;
+    --champagne-gold: #C5A059;
     --bronze-deep: #5A432D;
     --charcoal-warm: #382E2B;
     --taupe-muted: #8C786A;
-    --dusty-rose-soft: #D9B3A8;
-    --sage-subtle: #A3B19B;
   }
 
   body {
@@ -22,6 +22,28 @@
     font-family: 'Cormorant Garamond', Georgia, serif;
     overflow-x: hidden;
   }
+}
+
+/* Canva Palette Classes */
+.bg-fleet-card {
+  background-color: #434B58;
+  background-image: radial-gradient(circle at 50% 0%, rgba(94, 101, 114, 0.4) 0%, transparent 80%);
+}
+
+.text-rustic-foil {
+  color: #E5BDA7;
+}
+
+.text-butter-creme {
+  color: #FFF7EE;
+}
+
+.text-fleet-grey {
+  color: #5E6572;
+}
+
+.border-rustic {
+  border-color: rgba(229, 189, 167, 0.45);
 }
 
 .font-serif-lux {

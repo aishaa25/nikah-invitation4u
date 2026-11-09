@@ -23,9 +23,18 @@ export const IntroSection: React.FC<IntroSectionProps> = ({ onScrollToEnter }) =
         <span className="flex-1 h-[1px] bg-gradient-to-l from-transparent via-[#C5A059]/70 to-[#C5A059]" />
       </div>
 
-      <p className="font-serif-lux text-base sm:text-lg tracking-[0.2em] text-[#382E2B] font-semibold max-w-md uppercase">
-        With the love and blessings of our families
-      </p>
+      {/* Hosts & Invitation Announcement */}
+      <div className="space-y-2.5 max-w-md">
+        <p className="font-cinzel text-xs sm:text-sm tracking-[0.3em] text-[#74583E] uppercase font-bold">
+          Wedding Invitation
+        </p>
+        <h2 className="font-serif-lux text-2xl sm:text-3xl text-[#382E2B] font-bold tracking-wide">
+          Mr. &amp; Mrs. Aijaz Daroge
+        </h2>
+        <p className="font-serif-lux italic text-base sm:text-lg text-[#5E6572] leading-relaxed">
+          cordially invite you to celebrate the auspicious Nikah ceremony of their beloved daughter
+        </p>
+      </div>
 
       {/* Elegant Scroll to Enter Button in Butter Creme */}
       <button

@@ -100,10 +100,10 @@ export const EnvelopeSlide: React.FC<EnvelopeSlideProps> = ({ onOpen, isOpen }) 
 
           {/* Prompt: 'Touch Seal To Unveil' in Soft Butter Creme & Ink Gild */}
           <div className="mt-6 pointer-events-auto flex flex-col items-center">
-            <div className="px-6 py-2.5 rounded-full bg-[#FFF7EE]/95 backdrop-blur-md border border-[#E5BDA7] text-[#74583E] text-[11px] sm:text-xs tracking-[0.25em] font-cinzel uppercase font-bold shadow-md flex items-center gap-2 group-hover:bg-white group-hover:text-[#5A432D] transition-all transform group-hover:-translate-y-0.5">
-              <Sparkles className="w-3.5 h-3.5 text-[#C5A059] animate-spin" />
+            <div className="px-7 py-3 rounded-full bg-[#FFF7EE]/95 backdrop-blur-md border border-[#E5BDA7] text-[#74583E] text-xs sm:text-sm tracking-[0.25em] font-cinzel uppercase font-bold shadow-md flex items-center gap-2.5 group-hover:bg-white group-hover:text-[#5A432D] transition-all transform group-hover:-translate-y-0.5">
+              <Sparkles className="w-4 h-4 text-[#C5A059] animate-spin" />
               <span>{isOpening ? 'Unfolding Invitation...' : 'Touch Seal To Unveil'}</span>
-              <Sparkles className="w-3.5 h-3.5 text-[#C5A059] animate-spin" />
+              <Sparkles className="w-4 h-4 text-[#C5A059] animate-spin" />
             </div>
           </div>
 

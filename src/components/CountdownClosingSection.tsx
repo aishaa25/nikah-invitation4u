@@ -51,7 +51,7 @@ export const CountdownClosingSection: React.FC = () => {
           <span className="font-display-lux text-4xl sm:text-5xl text-[#382E2B] font-bold tabular-nums">
             {timeLeft.days}
           </span>
-          <span className="font-cinzel text-[10px] sm:text-[11px] uppercase tracking-[0.28em] text-[#74583E] font-bold mt-1.5">
+          <span className="font-cinzel text-xs sm:text-sm uppercase tracking-[0.28em] text-[#74583E] font-bold mt-1.5">
             Days
           </span>
         </div>
@@ -61,7 +61,7 @@ export const CountdownClosingSection: React.FC = () => {
           <span className="font-display-lux text-4xl sm:text-5xl text-[#382E2B] font-bold tabular-nums">
             {timeLeft.hours}
           </span>
-          <span className="font-cinzel text-[10px] sm:text-[11px] uppercase tracking-[0.28em] text-[#74583E] font-bold mt-1.5">
+          <span className="font-cinzel text-xs sm:text-sm uppercase tracking-[0.28em] text-[#74583E] font-bold mt-1.5">
             Hours
           </span>
         </div>
@@ -71,7 +71,7 @@ export const CountdownClosingSection: React.FC = () => {
           <span className="font-display-lux text-4xl sm:text-5xl text-[#382E2B] font-bold tabular-nums">
             {timeLeft.minutes}
           </span>
-          <span className="font-cinzel text-[10px] sm:text-[11px] uppercase tracking-[0.28em] text-[#74583E] font-bold mt-1.5">
+          <span className="font-cinzel text-xs sm:text-sm uppercase tracking-[0.28em] text-[#74583E] font-bold mt-1.5">
             Minutes
           </span>
         </div>
@@ -81,7 +81,7 @@ export const CountdownClosingSection: React.FC = () => {
           <span className="font-display-lux text-4xl sm:text-5xl text-[#382E2B] font-bold tabular-nums">
             {timeLeft.seconds}
           </span>
-          <span className="font-cinzel text-[10px] sm:text-[11px] uppercase tracking-[0.28em] text-[#74583E] font-bold mt-1.5">
+          <span className="font-cinzel text-xs sm:text-sm uppercase tracking-[0.28em] text-[#74583E] font-bold mt-1.5">
             Seconds
           </span>
         </div>
@@ -111,23 +111,23 @@ export const CountdownClosingSection: React.FC = () => {
         </div>
 
         {/* Final Invitation Line */}
-        <p className="font-serif-lux text-lg sm:text-xl text-[#382E2B] font-normal leading-relaxed max-w-sm mb-4">
+        <p className="font-serif-lux text-xl sm:text-2xl text-[#382E2B] font-medium leading-relaxed max-w-sm mb-4">
           &ldquo;Your presence will make our celebration even more special.&rdquo;
         </p>
 
         {/* Warm Regard */}
-        <p className="font-serif-lux italic text-sm sm:text-base text-[#74583E] tracking-wide mb-1.5">
+        <p className="font-serif-lux italic text-base sm:text-lg text-[#74583E] tracking-wide mb-1.5">
           With love and blessings,
         </p>
 
         {/* Prominent Family Name */}
-        <p className="font-cinzel text-xl sm:text-2xl text-[#382E2B] font-bold tracking-[0.16em] uppercase">
+        <p className="font-cinzel text-2xl sm:text-3xl text-[#382E2B] font-bold tracking-[0.16em] uppercase">
           The Daroge Family
         </p>
 
         {/* Subtle Graceful Subtext */}
-        <p className="font-serif-lux italic text-xs text-[#8C786A] mt-3 tracking-wider">
-          Hosted with love · Rajpuri
+        <p className="font-serif-lux italic text-sm text-[#74583E] font-medium mt-3 tracking-wider">
+          Hosted with love by Mr. &amp; Mrs. Aijaz Daroge · Rajpuri
         </p>
       </footer>
     </section>

@@ -30,48 +30,48 @@ export const GatheringSection: React.FC = () => {
         <div className="absolute inset-2.5 rounded-[20px] border border-[#E5BDA7]/30 pointer-events-none" />
 
         {/* 1. DAY & DATE */}
-        <div className="space-y-1 pb-5">
-          <p className="font-cinzel text-[11px] uppercase tracking-[0.32em] text-[#8C786A] font-semibold">
+        <div className="space-y-1.5 pb-5">
+          <p className="font-cinzel text-xs sm:text-sm uppercase tracking-[0.32em] text-[#74583E] font-bold">
             Day &amp; Date
           </p>
-          <p className="font-cinzel text-xl sm:text-2xl text-[#382E2B] font-bold tracking-[0.2em] uppercase">
+          <p className="font-cinzel text-2xl sm:text-3xl text-[#382E2B] font-bold tracking-[0.2em] uppercase">
             THURSDAY
           </p>
-          <p className="font-serif-lux text-lg sm:text-xl text-[#5A432D] font-medium tracking-wide">
+          <p className="font-serif-lux text-xl sm:text-2xl text-[#5A432D] font-semibold tracking-wide">
             17th December 2026
           </p>
         </div>
 
         {/* Delicate Card Divider */}
-        <div className="w-24 h-[1px] bg-[#E5BDA7]/60 mx-auto my-2" />
+        <div className="w-28 h-[1px] bg-[#E5BDA7]/60 mx-auto my-2" />
 
         {/* 2. TIME - Crystal-clear, bold, and high contrast */}
-        <div className="space-y-1.5 py-4">
-          <p className="font-cinzel text-[11px] uppercase tracking-[0.32em] text-[#8C786A] font-semibold">
+        <div className="space-y-2 py-4">
+          <p className="font-cinzel text-xs sm:text-sm uppercase tracking-[0.32em] text-[#74583E] font-bold">
             Time
           </p>
-          <div className="inline-block px-5 py-2 rounded-xl bg-[#FAF0E4] border border-[#E5BDA7]/50 shadow-inner">
+          <div className="inline-block px-6 py-2.5 rounded-2xl bg-[#FAF0E4] border border-[#E5BDA7]/60 shadow-inner">
             <p className="font-display-lux text-3xl sm:text-4xl text-[#382E2B] font-bold tracking-wider">
               11:30 AM
             </p>
           </div>
-          <p className="font-serif-lux italic text-xs text-[#74583E] pt-0.5">
+          <p className="font-serif-lux italic text-sm text-[#74583E] pt-0.5 font-medium">
             Morning Ceremony
           </p>
         </div>
 
         {/* Delicate Card Divider */}
-        <div className="w-24 h-[1px] bg-[#E5BDA7]/60 mx-auto my-2" />
+        <div className="w-28 h-[1px] bg-[#E5BDA7]/60 mx-auto my-2" />
 
         {/* 3. VENUE - ALL CAPITAL LETTERS consistent with THURSDAY */}
         <div className="space-y-1.5 pt-4">
-          <p className="font-cinzel text-[11px] uppercase tracking-[0.32em] text-[#8C786A] font-semibold">
+          <p className="font-cinzel text-xs sm:text-sm uppercase tracking-[0.32em] text-[#74583E] font-bold">
             Venue
           </p>
           <p className="font-cinzel text-xl sm:text-2xl text-[#382E2B] font-bold tracking-[0.18em] uppercase">
             JAMA MASJID, RAJPURI
           </p>
-          <p className="font-serif-lux text-xs sm:text-sm text-[#74583E] tracking-wide">
+          <p className="font-serif-lux text-sm sm:text-base text-[#74583E] font-medium tracking-wide">
             Murud, Maharashtra
           </p>
         </div>
@@ -91,7 +91,7 @@ export const GatheringSection: React.FC = () => {
           <ExternalLink className="w-3.5 h-3.5 text-[#B88B4A]" />
         </a>
 
-        <p className="text-[11px] text-[#8C786A] font-serif-lux italic pt-1">
+        <p className="text-xs sm:text-sm text-[#74583E] font-serif-lux italic pt-1">
           Opens location directly in Google Maps
         </p>
       </div>
