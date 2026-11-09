@@ -2,6 +2,11 @@
 
 @layer base {
   :root {
+    color-scheme: light only;
+    supported-color-schemes: light;
+    forced-color-adjust: none;
+    -webkit-forced-color-adjust: none;
+
     /* Exact Luxury Wedding Palette from Canva Reference */
     --butter-creme: #FFF7EE;
     --parchment-warm: #FAF4EB;
@@ -16,11 +21,19 @@
     --taupe-muted: #8C786A;
   }
 
-  body {
+  html, body, #root {
+    color-scheme: light only;
+    forced-color-adjust: none;
+    -webkit-forced-color-adjust: none;
     background-color: #FAF4EB;
     color: #382E2B;
     font-family: 'Cormorant Garamond', Georgia, serif;
     overflow-x: hidden;
+  }
+
+  *, *::before, *::after {
+    forced-color-adjust: none !important;
+    -webkit-forced-color-adjust: none !important;
   }
 }
 
