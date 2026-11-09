@@ -1,0 +1,6 @@
+{
+  "name": "Nikah Invitation - Ayesha & Saifuddin",
+  "description": "Interactive luxury wedding invitation for Ayesha & Saifuddin featuring an interactive envelope with gold Bismillah wax seal, scratch-to-reveal ceremony date, venue details, and live countdown.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

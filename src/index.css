@@ -1,0 +1,122 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    /* Refined Luxury Wedding Palette inspired by Canva Butter Creme & Ink Gild */
+    --butter-creme: #FFF7EE;
+    --parchment-warm: #FAF4EB;
+    --ivory-pure: #FCF9F5;
+    --rustic-warm: #E5BDA7;
+    --champagne-gold: #C5A059;
+    --ink-gild: #74583E;
+    --bronze-deep: #5A432D;
+    --charcoal-warm: #382E2B;
+    --taupe-muted: #8C786A;
+    --dusty-rose-soft: #D9B3A8;
+    --sage-subtle: #A3B19B;
+  }
+
+  body {
+    background-color: #FAF4EB;
+    color: #382E2B;
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    overflow-x: hidden;
+  }
+}
+
+.font-serif-lux {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-display-lux {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.font-script-lux {
+  font-family: 'Alex Brush', cursive;
+}
+
+.font-calligraphy {
+  font-family: 'Great Vibes', cursive;
+}
+
+.font-pinyon {
+  font-family: 'Pinyon Script', cursive;
+}
+
+.font-cinzel {
+  font-family: 'Cinzel', Georgia, serif;
+}
+
+.font-arabic {
+  font-family: 'Amiri', 'Scheherazade New', serif;
+}
+
+.font-sans-clean {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+/* Luxury Ink Gild & Champagne Foil Effects */
+.text-ink-gild {
+  color: #74583E;
+}
+
+.text-gold-foil {
+  background: linear-gradient(135deg, #DFBE82 0%, #B88944 35%, #F7E5BD 60%, #8C6527 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0px 1px 1px rgba(116, 88, 62, 0.15));
+}
+
+.text-bronze-foil {
+  background: linear-gradient(135deg, #A88358 0%, #74583E 50%, #5A432D 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Warm Butter Creme & Champagne Card Styling */
+.bg-butter-creme {
+  background-color: #FFF7EE;
+}
+
+.border-champagne {
+  border-color: rgba(197, 160, 89, 0.4);
+}
+
+.shadow-wedding-card {
+  box-shadow: 0 10px 30px -10px rgba(90, 67, 45, 0.08), 0 4px 12px -2px rgba(90, 67, 45, 0.04);
+}
+
+.shadow-wax-seal {
+  box-shadow: 0 12px 25px -4px rgba(70, 45, 20, 0.45), 0 4px 10px rgba(0, 0, 0, 0.2), inset 0 2px 4px rgba(255, 255, 255, 0.5), inset 0 -3px 8px rgba(0, 0, 0, 0.4);
+}
+
+/* Subtle Royal Paper Texture */
+.luxury-royal-bg {
+  background-color: #FAF4EB;
+  background-image: 
+    radial-gradient(circle at 50% 0%, rgba(255, 247, 238, 0.8) 0%, transparent 70%),
+    radial-gradient(circle at 100% 50%, rgba(229, 189, 167, 0.18) 0%, transparent 50%),
+    radial-gradient(circle at 0% 80%, rgba(163, 177, 155, 0.12) 0%, transparent 50%),
+    radial-gradient(rgba(116, 88, 62, 0.04) 1px, transparent 1px);
+  background-size: 100% 100%, 100% 100%, 100% 100%, 28px 28px;
+}
+
+.filigree-watermark {
+  background-image: radial-gradient(circle, rgba(140, 120, 106, 0.035) 1.5px, transparent 1.5px);
+  background-size: 32px 32px;
+}
+
+/* Custom smooth scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FAF4EB;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D9C5B2;
+  border-radius: 9999px;
+}
